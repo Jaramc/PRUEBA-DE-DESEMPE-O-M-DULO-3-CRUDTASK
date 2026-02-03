@@ -15,3 +15,6 @@ git: https://github.com/Jaramc/PRUEBA-DE-DESEMPE-O-M-DULO-3-CRUDTASK
 email: armandobroncas@gmail.com
 password: 123456
 
+email: ximena@gmail.com
+password: 123456
+
