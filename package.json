@@ -1,0 +1,23 @@
+{
+  "name": "prueba-de-desempe-o-m-dulo-3-crudtask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaramc/PRUEBA-DE-DESEMPE-O-M-DULO-3-CRUDTASK.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaramc/PRUEBA-DE-DESEMPE-O-M-DULO-3-CRUDTASK/issues"
+  },
+  "homepage": "https://github.com/Jaramc/PRUEBA-DE-DESEMPE-O-M-DULO-3-CRUDTASK#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.5"
+  }
+}

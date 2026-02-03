@@ -1,0 +1,265 @@
+/* Dashboard styles */
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+    border-right: 1px solid #e5e5e5;
+}
+
+.sidebar-header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.sidebar-nav {
+    padding: 1rem 0;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    color: #6c757d;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.nav-item:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+}
+
+.nav-item.active {
+    background-color: #e7f3ff;
+    color: #007bff;
+    border-right: 3px solid #007bff;
+}
+
+.nav-item i {
+    margin-right: 0.75rem;
+    width: 16px;
+}
+
+.main-content {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Sticky header */
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+/* User Profile Styles */
+.user-profile-btn {
+    padding: 0.5rem !important;
+    transition: background-color 0.2s;
+}
+
+.user-profile-btn:hover {
+    background-color: #f8f9fa !important;
+    border-radius: 8px;
+}
+
+.user-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #e9ecef;
+}
+
+.user-avatar-placeholder {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    font-size: 18px;
+}
+
+.user-name {
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #212529;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.user-role {
+    color: #6c757d;
+    font-size: 0.75rem;
+    line-height: 1;
+}
+
+.user-avatar-small {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.dropdown-menu {
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 0.5rem 0;
+}
+
+.dropdown-item {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    transition: background-color 0.15s;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+.dropdown-item i {
+    width: 16px;
+    text-align: center;
+}
+
+.content {
+    max-width: 1200px;
+}
+
+/* Metric cards */
+.metric-card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.metric-card:hover {
+    transform: translateY(-2px);
+}
+
+.metric-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* Table styles */
+.table th {
+    border-top: none;
+    font-weight: 600;
+    color: #6c757d;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 1rem 0.75rem;
+}
+
+.table td {
+    vertical-align: middle;
+    padding: 1rem 0.75rem;
+    border-top: 1px solid #f1f3f4;
+}
+
+/* Priority dots como en el Figma */
+.priority-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.priority-high {
+    background-color: #dc3545; /* Rojo */
+}
+
+.priority-medium {
+    background-color: #ffc107; /* Amarillo/Naranja */
+}
+
+.priority-low {
+    background-color: #28a745; /* Verde */
+}
+
+/* Assignee avatar pequeño */
+.assignee-avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    font-size: 12px;
+    flex-shrink: 0;
+}
+
+/* Search input wrapper */
+.search-input-wrapper {
+    max-width: 400px;
+}
+
+/* New Task Page Styles */
+.new-task-container {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.chevron-small {
+    font-size: 0.75rem;
+}
+
+.description-textarea {
+    resize: vertical;
+}
+
+/* Custom metric icon backgrounds */
+.metric-icon-orange {
+    background-color: #ff6b35;
+}
+
+.metric-icon-purple {
+    background-color: #8b5cf6;
+}
+
+/* Action buttons */
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+}
+
+/* Priority dots for admin table */
+.priority-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 0.25rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+    
+    .main-content {
+        width: 100%;
+    }
+}
